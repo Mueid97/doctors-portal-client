@@ -37,14 +37,14 @@ const Testimonial = () => {
                     <h1 className='text-accent uppercase text-4xl'>Whats Our patients says</h1>
                 </div>
                 <div>
-                    <img style={{width: '192px', height:'156px'}} src={quote} alt="" />
+                    <img style={{ width: '192px', height: '156px' }} src={quote} alt="" />
                 </div>
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 mt-28'>
                 {
-                    patients.map(patient=> <TestimonialCard 
-                    key={patient._id}
-                    patient={patient}
+                    patients.map(patient => <TestimonialCard
+                        key={patient._id}
+                        patient={patient}
                     ></TestimonialCard>)
                 }
             </div>
