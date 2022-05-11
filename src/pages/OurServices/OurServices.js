@@ -29,8 +29,8 @@ const OurServices = () => {
     return (
         <section className='mt-32'>
             <div>
-                <h4 className='text-center text-primary text-2xl font-bold'>Our Services</h4>
-                <h1 className='text-center text-4xl font-bold'>Service we Provided</h1>
+                <h4 className='text-center text-primary text-2xl font-bold uppercase'>Our Services</h4>
+                <h1 className='text-center text-4xl font-bold uppercase'>Service we Provided</h1>
             </div>
             <div className='grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-16 px-12'>
                 {
