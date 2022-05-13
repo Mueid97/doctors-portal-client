@@ -30,7 +30,7 @@ const Testimonial = () => {
     ]
 
     return (
-        <section className='px-12'>
+        <section className='lg:px-12 px-12'>
             <div className='flex justify-between pt-5'>
                 <div className=''>
                     <h3 className='text-primary uppercase text-2xl'>Testimonial</h3>

@@ -4,7 +4,7 @@ import PrimaryButton from '../../PrimaryButton/PrimaryButton';
 import apponmentSection from '../../assets/images/appointment.png'
 const ApponmenSection = () => {
     return (
-        <div className="hero min-h-screen" style={{ background: `url(${apponmentSection})`, backgroundSize: 'cover' }}>
+        <div className="hero min-h-screen sm:px-12" style={{ background: `url(${apponmentSection})`, backgroundSize: 'cover' }}>
             <div className="hero-content flex-col lg:flex-row">
                 <img src={doctor} width='600px' className=" lg:mt-[-300px] mt-[-200px]" alt='' />
                 <div>
